@@ -8,3 +8,5 @@ def index(request):
 def update(request):
     os.system("git pull origin main")
     return HttpResponse("UPDATE")
+def dell(request):
+    return()
