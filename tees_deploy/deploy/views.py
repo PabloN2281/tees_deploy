@@ -7,6 +7,4 @@ def index(request):
     return HttpResponse("INDEX 2")
 def update(request):
     os.system("git pull origin main")
-    return HttpResponse("UPDATE")
-def dell(request):
-    return()
+    return HttpResponse("nathan")
